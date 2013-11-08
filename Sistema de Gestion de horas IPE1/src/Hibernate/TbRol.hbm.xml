@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 08-nov-2013 11:00:59 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="Hibernate.TbRol" table="tb_rol" catalog="ipeversionchanchito">
+        <id name="codRol" type="int">
+            <column name="Cod_Rol" />
+            <generator class="assigned" />
+        </id>
+        <property name="descripcionRol" type="string">
+            <column name="Descripcion_Rol" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 08-nov-2013 11:00:59 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="Hibernate.TbPersona" table="tb_persona" catalog="ipeversionchanchito">
+        <id name="ci" type="int">
+            <column name="CI" />
+            <generator class="assigned" />
+        </id>
+        <property name="nomPer" type="string">
+            <column name="Nom_Per" length="20" />
+        </property>
+        <property name="apePer" type="string">
+            <column name="Ape_Per" length="20" />
+        </property>
+        <property name="telefono" type="java.lang.Integer">
+            <column name="Telefono" />
+        </property>
+        <property name="direccion" type="string">
+            <column name="Direccion" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>
